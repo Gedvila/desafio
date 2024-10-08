@@ -42,32 +42,5 @@ public class Service {
         return "Deletado";
     }
 
-//    public Usuario create(Usuario usuario){
-//       return repository.save(usuario);
-//    }
-//
-//    public void delete(Long id){
-//        repository.deleteById(id);
-//    }
-//
-//    public Usuario getById(Long id){
-//        Optional<Usuario> usuario =  repository.findById(id);
-//        return usuario.get();
-//    }
-//
-//    public List<Usuario> getAll(){
-//        return repository.findAll();
-//    }
-//
-//    public Usuario update(Usuario usuario){
-//        Optional<Usuario> newObj = repository.findById(usuario.getId());
-//        updateUsuario(newObj, usuario);
-//        return repository.save(newObj.get());
-//
-//    }
-//
-//    private void updateUsuario(Optional<Usuario> newObj, Usuario usuario) {
-//        newObj.get().setNome(usuario.getNome());
-//    }
 
 }

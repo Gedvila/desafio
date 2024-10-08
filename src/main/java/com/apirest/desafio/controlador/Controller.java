@@ -40,30 +40,4 @@ public class Controller {
         return service.deletar(usuarioId);
     }
 
-//    @PostMapping
-//    public ResponseEntity<Usuario> create(@RequestBody Usuario usuario){
-//        return ResponseEntity.status(HttpStatus.CREATED).body(service.create(usuario));
-//    }
-//
-//    @DeleteMapping(value = "/{id}")
-//    public ResponseEntity<Void> delete(@PathVariable Long id){
-//        service.delete(id);
-//        return ResponseEntity.noContent().build();
-//    }
-//
-//    @GetMapping(value = "/{id}")
-//    public ResponseEntity<Usuario> getId(@PathVariable Long id){
-//        return ResponseEntity.ok().body(service.getById(id));
-//    }
-//
-//    @GetMapping
-//    public ResponseEntity<List<Usuario>> getAll(){
-//        return ResponseEntity.ok().body(service.getAll());
-//    }
-//
-//    @PutMapping(value = "/{id}")
-//    public  ResponseEntity<Usuario> update(@PathVariable Long id,@RequestBody Usuario usuario){
-//        usuario.setId(id);
-//        return ResponseEntity.ok().body(service.update(usuario));
-//    }
 }
