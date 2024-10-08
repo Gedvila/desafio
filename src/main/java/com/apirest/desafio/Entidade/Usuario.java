@@ -1,15 +1,17 @@
-package com.apirest.desafio.dto;
+package com.apirest.desafio.Entidade;
 
-import com.apirest.desafio.repository.UsuarioRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
+import jakarta.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class Usuario {
 
+@Entity
+@Table(name = "tb_livro")
+public class Usuario implements Serializable {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nome;
     private String email;
